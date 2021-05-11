@@ -48,6 +48,9 @@ public class CacheConfiguration {
             createCache(cm, me.amplitudo.apiexample.domain.User.class.getName());
             createCache(cm, me.amplitudo.apiexample.domain.Authority.class.getName());
             createCache(cm, me.amplitudo.apiexample.domain.User.class.getName() + ".authorities");
+            createCache(cm, me.amplitudo.apiexample.domain.Movie.class.getName());
+            createCache(cm, me.amplitudo.apiexample.domain.Person.class.getName());
+            createCache(cm, me.amplitudo.apiexample.domain.Book.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
